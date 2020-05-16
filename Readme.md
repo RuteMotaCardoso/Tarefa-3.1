@@ -1,6 +1,19 @@
+Disponível em https://github.com/RuteMotaCardoso/Tarefa-3.1
+
 # Tarefa 3.1
 
-Uma vez que o objetivo é integrar as duas novas entidades, **Voluntários** e **Membros da Comissão Científica**, na plataforma já existente, o primeiro objetivo foi aceder e visualizar o *back-office*.
+## Entregas
+### 1ª Entrega
+O objetivo foi integrar as duas novas entidades, **Voluntários** e **Membros da Comissão Científica**, na plataforma já existente, sendo para tal necessário aceder e visualizar o *back-office*.
+
+### 2ª Entrega
+O objetivo foi adicionar ao *back-office* as funcionalidades sugeridas de gestão de tarefas pessoais (nome, data, duração, descrição) que podem ser associadas a listas tipo (nome, cor). Tendo sido também recomendado a participação de outras pessoas nas tarefas para além do próprio utilizador, optou-se nesta implementação por criar uma Gestão de Tarefas de Voluntários, selecionando o voluntário responsável pela tarefa (através de um *select*/*drop-down*). 
+
+Esta atualização resultou na criação de novas entradas no *back-office*: **Tarefas Voluntários** e **Tipos Tarefas**.
+ Nos **Tipos Tarefas** destaca-se a associação de cor a um tipo de tarefa (também visível nas tarefas de voluntários). Nas **Tarefas Voluntários** destaca-se a possibilidade de marcar uma tarefa como concluída na gestão de tarefas, sendo a mesma apresentada de forma rasurada. Existe ainda a possibilidade de desmarcar a tarefa como concluída (através de um *toggle*). A seleção da data utilizou um *date-picker*, enquanto a escolha do tipo é realizada através de um *select*/*drop-down*.
+Para ilustrar as novas opções no menu foi escolhido o ícone *check* ("fa fa-check-sqare"; Font Awesome: https://www.w3schools.com/icons/fontawesome_icons_form.asp).
+
+Para os dois novos ecrãs foram ainda realizados os *mockups*. Quanto aos *Wireframes*, tratando-se também de uma estrutura de lista (à semelhança dos Voluntários e Membros da Comissão) e tendo adotado as sugestões de campos apresentados pelo professor, não vi necessidade de os elaborar.  
 
 ## Acesso à Página de Administração/*Back-office*
 Procedi primeiro ao *download* do material complementar do livro adotado, que contém o código do *site WebConference*, com o objetivo de evoluir o mesmo, integrando duas novas entidades no *back-office* do *front-end*.
